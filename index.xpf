@@ -1,0 +1,18 @@
+<Page showingTemplate="false" localPreview="true" lastPublish="1517155275643" lastUpdated="Fri Mar 22 21:47:19 GMT+00:00 2013" lastSave="1363988839973" lastMod="1363988832926" footerSelection="2" dirty="">
+  <Element showFooter="true" changed="@bgColor,@changed,@uidCounter,@pageURI,@filename,@title,@linkColor,@followedLinkColor,@description,@keyword,@width,@footerStyle,@center,@onload,@headTag," onload="setTimeout('delayer()', 1)" imageToolbarOff="false" description="&#10;All Nations Life and Praise Church Pastor Keith Brooks Welcome Page" pagePassword="" bgPattern="ibog:/Backgrounds#algae.gif" currentWindow="1" keyword="All Nations Life and Praise Pastor Keith D. Brooks" quicksiteDesign="true" bgImage="" passwordProtectedFile="" master="" onPublish="PageElement" footerTextFont="Arial" width="820" editable="true" onunload="" bgColor="#000000" headTag="" center="true" footerLinkColor="#505050" followedLinkColor="#999999" backgroundType="bgColor" type="Page" brManagedPageTitle="true" footerTextSize="12" uidCounter="78" filename="index" copyrightFooterStyle="White Bar" footerHasBackground="true" title="Home" footerTextColor="#505050" uniqueID="element1" linkColor="#BEC4FD" pageURI="https://www.allnationslifepraise.org/index.html">
+    <Form resizeable="no" y="" height="auto" x="" width="100%"/>
+  </Element>
+  <HeadTag>
+    <![CDATA[<script type="text/javascript">
+<!--
+function delayer(){
+    window.location = "../home.html"
+}
+//-->
+</script>]]>
+  </HeadTag>
+  <Version>
+    <Current site="1756230200" fileVersion="13" user="5993528"/>
+    <Initial site="1751022310" fileVersion="9" user="11916"/>
+  </Version>
+</Page>
