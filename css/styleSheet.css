@@ -142,9 +142,6 @@ p {
 .footerContainerColumn1 p {
 	font-size: 1 em;
 
-
-
-
 }
 .footerContainerColumn2{
 	float: left;
@@ -637,21 +634,24 @@ h4 {
 	.givelify{
 		text-align: center;
 	}
+
 	#popup {
 					display:none;
 					position:absolute;
 					margin:0 auto;
-					top: 50%;
+					top: 40%;
 					left: 50%;
 					transform: translate(-50%, -30%);
 					z-index: 9999;
 	}
+
 	#close {
 		position: absolute;
 		top: 0px;
 		right: 0px;
 
 	}
+
 .mask {
 	position: absolute;
 	top: 0;
