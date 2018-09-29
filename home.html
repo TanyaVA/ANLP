@@ -217,8 +217,9 @@ function show_modal(modal_id){
 		</div>
 		<!-- let's call the following div as the POPUP FRAME -->
 
-		<!-- <div id="popup"> -->
+		<div id="popup">
     <!-- and here comes the image -->
+<<<<<<< HEAD
 		  <!-- <img  src="Images/2018Images/Events/MothersCelebration2018.jpg" alt="popup" height="700" width="600"> -->
 			<!-- <div> -->
 				<!-- Now this is the button which closes the popup-->
@@ -243,5 +244,31 @@ function show_modal(modal_id){
 				<!-- }); -->
 		<!-- }); -->
  	<!-- </script> -->
+=======
+		  <img  src="Images/2018Images/Events/MothersCelebration2018.jpg" alt="popup" height="700" width="600">
+			<div>
+				<!-- Now this is the button which closes the popup-->
+				<button id="close" type="button" class="close"aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div> -->
+			<!-- and finally we close the POPUP FRAME-->
+			<!-- everything on it will show up within the popup so you can add more things not just an image -->
+		</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+	</script> -->
+	<script>
+		$(document).ready(function() {
+				$("#popup").hide().fadeIn(1000);
+				setTimeout(function() {
+					$("#popup").fadeOut(1500);
+				},8000);
+				$("#close").on("click", function(e) {
+					e.preventDefault();
+					$("#popup").fadeOut(1000);
+				});
+		});
+ 	</script>
+>>>>>>> f72e10d1d93d744647360966168657061799a9a4
 </body>
 </html>
