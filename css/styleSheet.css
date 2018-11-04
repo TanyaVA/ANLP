@@ -382,7 +382,6 @@ p {
 	padding: 5px;
 }
 
-
 ul#navList{
 	padding:0px;
 	margin:0px;
@@ -572,11 +571,16 @@ background-image: url("../Images/AllNationsImages/background.jpg");
     display:none;
     background-color: black;
 }
-
 .modal_window{
     position:absolute;
     display:none;
+    color:white;
+}
 
+.modal_window2{
+    position:absolute;
+    display:none;
+		transform: scale(0.75);
     color:white;
 }
 
