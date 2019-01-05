@@ -247,31 +247,58 @@
 	</div>
 	<!-- let's call the following div as the POPUP FRAME -->
 
-	<!-- <div id="popup"> -->
+	<div id="popup">
 		<!-- and here comes the image -->
-		<!-- <img src="Images/2018Images/Events/54thAnniversary.jpg" alt="popup" height="700" width="600"> -->
-		<!-- <div> -->
+		<img src="Images/2019Images/HappyNewYear2019.jpg" alt="popup" height="700" width="400">
+		<div>
 			<!-- Now this is the button which closes the popup-->
-			<!-- <button id="close" type="button" class="close" aria-label="Close"> -->
-				<!-- <span aria-hidden="true">&times;</span> -->
-			<!-- </button> -->
-		<!-- </div>  -->
+			<button id="close" type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
 		<!-- and finally we close the POPUP FRAME-->
 		<!-- everything on it will show up within the popup so you can add more things not just an image -->
-	<!-- </div> -->
-	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-	<!-- <script> -->
-		<!-- $(document).ready(function () { -->
-			<!-- $("#popup").hide().fadeIn(1000); -->
-			<!-- setTimeout(function () { -->
-				<!-- $("#popup").fadeOut(1500); -->
-			<!-- }, 8000); -->
-			<!-- $("#close").on("click", function (e) { -->
-				<!-- e.preventDefault(); -->
-				<!-- $("#popup").fadeOut(1000); -->
-			<!-- }); -->
-		<!-- }); -->
-	<!-- </script> -->
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#popup").hide().fadeIn(1000);
+			setTimeout(function () {
+				 $("#popup").fadeOut(1500);
+			 }, 5000);
+			$("#close").on("click", function (e) {
+				 e.preventDefault();
+			 $("#popup").fadeOut(0);
+		 });
+	 });
+ </script>
+ <div id="popup2">
+	 <!-- and here comes the image -->
+	 <img src="Images/2019Images/communionFlyer.jpg" alt="popup2" height="600" width="400">
+	 <div>
+		 <!-- Now this is the button which closes the popup-->
+		 <button id="close" type="button" class="close" aria-label="Close">
+			 <span aria-hidden="true">&times;</span>
+		 </button>
+	 </div>
+	 <!-- and finally we close the POPUP FRAME-->
+	 <!-- everything on it will show up within the popup so you can add more things not just an image -->
+ </div>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script>
+	 $(document).ready(function () {
+		 setTimeout(function(){
+			 $("#popup2").hide().fadeIn(1000);
+		 }, 5000)
+		 setTimeout(function () {
+				$("#popup2").fadeOut(1500);
+			}, 9000);
+		 $("#close").on("click", function (e) {
+				e.preventDefault();
+			$("#popup2").fadeOut(500);
+		});
+	});
+ </script>
 </body>
 
 </html>
