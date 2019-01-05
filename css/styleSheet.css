@@ -648,6 +648,15 @@ h4 {
 					transform: translate(-50%, -30%);
 					z-index: 9999;
 	}
+	#popup2 {
+					display:none;
+					position:absolute;
+					margin:0 auto;
+					top: 40%;
+					left: 50%;
+					transform: translate(-50%, -30%);
+					z-index: 9999;
+	}
 
 	#close {
 		position: absolute;
