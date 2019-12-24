@@ -673,3 +673,9 @@ h4 {
 	height: 100%;
 	display: none;
 }
+
+.eventsComing {
+		color: purple;
+		font-weight: bold;
+		font-size: 50px;
+}
