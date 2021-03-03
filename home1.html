@@ -97,13 +97,10 @@
 				<img src="Images/2018Images/pastorheader2.jpg" />
 			</div>
 			<div class="topHeaderColumn3">
-				<span><a href="home.html">Home</a> </span>
-				<span><a href="pastor.html">Our Pastor</a> </span>
-				<span><a href="history.html">Our History</a> </span>
-				<span><a href="ministries.html">Ministries</a> </span>
-				<span><a href="foodPantry.html">Food Pantry</a> </span>
-				<span><a href="events.html">Events</a> </span>
-				<!-- <span><a href="media.html">Media</a></span> -->
+				<span><a href="home.html">Home</a> </span> <span><a href="pastor.html">Our Pastor</a> </span> <span><a href="history.html">Our
+						History</a> </span> <span><a href="ministries.html">Ministries</a> </span> <span><a href="events.html">Events</a>
+				</span>
+				<!-- <span><a href="media.html">Media</a> </span>  -->
 				<span><a href="donations.html">Donations</a></span>
 				<span><a href="contactUs.html">Contact Us</a> </span>
 			</div>
@@ -112,8 +109,8 @@
 		<div class="contentContainer1stColumnIndexPage">
 			<div class="outsideVideoContainer">
 				<div class="wrap">
-					<p><a class='activate_modal' name='first_window' href='#'><img src="images/2018Images/playSundayMorningImg.jpg" border="0" />
-							 </a></p>
+					<p><a class='activate_modal' name='first_window' href='#'><img src="images/2018Images/playSundayMorningImg.jpg"
+							 border="0" /></a></p>
 					<img src="Images/2018Images/SundayMorningImg.jpg" class="front" alt="image" />
 
 				</div>
@@ -131,12 +128,10 @@
 
 
 			<div id='mask' class='close_modal'></div>
-<div id='first_window' class='modal_window'>
-			<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fallnationscathedral%2Fvideos%2F560583828233962%2F&show_text=false&width=560"
-			width="560" height="314" style="border:none;overflow:hidden" scrolling="no"
-			frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-			allowFullScreen="true"></iframe>
-</div>
+
+			<div id='first_window' class='modal_window'><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdewoyne.smith.3%2Fvideos%2F943577062475514%2F&show_text=0&width=476"
+				 width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+				 allowFullScreen="true"></iframe></div>
 			<!-- <div id='second_window' class='modal_window'><iframe width="560" height="315" src="http://www.youtube.com/embed/pLLRjRZzgjw" frameborder="0" allowfullscreen></iframe></div> -->
 			<div id='third_window' class='modal_window'><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fallnationscathedral%2Fvideos%2F540234039643543%2F&show_text=0&width=560"
 				 width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
@@ -205,7 +200,6 @@
 					<li><span><a href="pastor.html">Our Pastor</a></span></li>
 					<li><span><a href="history.html">Our History</a></span></li>
 					<li><span><a href="ministries.html">Ministries</a></span></li>
-					<li><span><a href="foodPantry.html">Food Pantry</a> </span></li>
 					<li><span><a href="events.html">Events</a></span></li>
 					<!-- <li><span><a href="media.html">Media</a></span></li> -->
 					<li><span><a href="donations.html">Donations</a></span></li>
@@ -252,57 +246,64 @@
 
 	</div>
 	<!-- let's call the following div as the POPUP FRAME -->
-	<!-- <div id="popup2"> -->
+	<div id="popup2">
+	 <!-- and here comes the image -->
+	 <img src="Images/2020Images/ONLINE_COMMUNION.jpg" alt="popup2" height="750" width="700">
+	 <div>
+		 <!-- Now this is the button which closes the popup-->
+		 <button id="close" type="button" class="close" aria-label="Close">
+			 <span aria-hidden="true">&times;</span>
+		 </button>
+	 </div>
+	 <!-- and finally we close the POPUP FRAME-->
+	 <!-- everything on it will show up within the popup so you can add more things not just an image -->
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	 $(document).ready(function () {
+		 setTimeout(function(){
+			 $("#popup2").hide().fadeIn(1000);
+		 }, 8000)
+		 setTimeout(function () {
+				$("#popup2").fadeOut(1500);
+			}, 35000);
+		 $("#close").on("click", function (e) {
+				e.preventDefault();
+			$("#popup2").fadeOut(500);
+		});
+	});
+	</script>
+
+	<div id="popup3">
  	 <!-- and here comes the image -->
- 	 <!-- <img src="Images/2021Images/2020YearEndStatement.png" alt="popup2" height="750" width="700">
- 	 <div> -->
+ 	 <img src="Images/2020Images/Givelify.jpg" alt="popup2" height="750" width="700">
+ 	 <div>
  		 <!-- Now this is the button which closes the popup-->
- 		 <!-- <button id="close" type="button" class="close" aria-label="Close">
+ 		 <button id="close" type="button" class="close" aria-label="Close">
  			 <span aria-hidden="true">&times;</span>
  		 </button>
  	 </div>
+ 	 <!-- and finally we close the POPUP FRAME-->
+ 	 <!-- everything on it will show up within the popup so you can add more things not just an image -->
   </div>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
  	 $(document).ready(function () {
  		 setTimeout(function(){
- 			 $("#popup2").hide().fadeIn(1000);
- 		 }, 5000)
- 		 setTimeout(function () {
- 				$("#popup2").fadeOut(1500);
- 			}, 15000);
- 		 $("#close").on("click", function (e) {
- 				e.preventDefault();
- 			$("#popup2").fadeOut(500);
- 		});
- 	});
-  </script> -->
-	<!-- <div id="popup3">
- 	  <img src="Images/2021Images/2020YearEndStatement.png" alt="popup3" height="750" width="700">
- 	 <div>
- 		 <button id="close" type="button" class="close" aria-label="Close">
- 			 <span aria-hidden="true">&times;</span>
- 		 </button>
- 	 </div>
- </div>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>
- 	 $(document).ready(function () {
- 		 setTimeout(function(){
  			 $("#popup3").hide().fadeIn(1000);
- 		 }, 15000)
+ 		 }, 8000)
  		 setTimeout(function () {
  				$("#popup3").fadeOut(1500);
- 			}, 25000);
+ 			}, 35000);
  		 $("#close").on("click", function (e) {
  				e.preventDefault();
  			$("#popup3").fadeOut(500);
  		});
  	});
-  </script> -->
+  </script>
 	<div id="popup">
 		<!-- and here comes the image -->
-		<img src="Images/2021Images/ChurchService.jpg" alt="popup" height="800" width="650">
+		<img src="Images/2020Images/ANLP442020.jpg" alt="popup" height="750" width="700">
 		<div>
 			<!-- Now this is the button which closes the popup-->
 			<button id="close" type="button" class="close" aria-label="Close">
@@ -316,7 +317,7 @@
 			$("#popup").hide().fadeIn(1000);
 			setTimeout(function () {
 				 $("#popup").fadeOut(1500);
-			 }, 5000);
+			 }, 20000);
 			$("#close").on("click", function (e) {
 				 e.preventDefault();
 			 $("#popup").fadeOut(500);
